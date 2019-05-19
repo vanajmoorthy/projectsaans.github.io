@@ -67,6 +67,20 @@ a {
   transition: all 0.3s ease-in-out;
 }
 
+#head {
+  width: 80px;
+  height: auto;
+  padding-top: 10px;
+  padding-bottom: 10px; 
+}
+
+#footer_logo {
+  width: 100px;
+  height: auto;
+  padding-top: 5px;
+  padding-bottom: 10px; 
+}
+
 h1, h2, h3, h4, h5 {
   font-family: 'Poppins', sans-serif;
   font-size: 40px;
@@ -723,7 +737,9 @@ button:focus {
 }
 
 .hero-area-2 .intro-img {
-  padding: 180px 0 0px;
+  padding: 33px 0 0px;
+  width: 115%;
+  height: auto;
 }
 
 .hero-area-2 .intro-img img {
@@ -2222,9 +2238,9 @@ footer .menu li a:hover {
 
 .copyright {
   padding: 15px 0;
-  border-top: 1px solid rgba(255, 255, 255, 0.3);
+  /* border-top: 1px solid rgba(255, 255, 255, 0.3); */
   color: #ffffff;
-  margin-top: 30px;
+  /* margin-top: 30px; */
 }
 
 .copyright p {
