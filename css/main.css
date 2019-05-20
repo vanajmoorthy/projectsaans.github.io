@@ -9,6 +9,10 @@ body {
   overflow-x: hidden;
 }
 
+#donlad {
+  border-radius: 20px;
+}
+
 html {
   overflow-x: hidden;
 }
