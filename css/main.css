@@ -1,39 +1,5 @@
-/*
-Theme Name:       Proton - Bootstrap 4 Template
-Author:           UIdeck
-Author URI:       http://uideck.com
-Text Domain:      UIdeck
-Domain Path:      /languages/
-*/
-/*TABLE OF CONTENT */
-/* CORE: */
-/* ____Bootstrap */
-/* ____Logo */
-/* ____Icon */
-/* ____Button */
-/* ____Section */
-/* ____Nav */
-/* ____Header */
-/* ____Footer */
-/* MODULES: */
-/* ____Carouse Slider */
-/* ____Features */
-/* ____Counter */
-/* ____Screenshots */
-/* ____Team */
-/* ____Testimonial */
-/* ____Download */
-/* ____Subscribe */
-/* ____Pricing-table */
-/* ____Blog */
-/* ____Contact*/
-/* ==========================================================================
-   IMPORT GOOGLE FONTS
-   ========================================================================== */
 @import url("https://fonts.googleapis.com/css?family=Poppins:400,600|Roboto");
-/* ==========================================================================
-   GENERAL
-   ========================================================================== */
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #a0a6ad;
