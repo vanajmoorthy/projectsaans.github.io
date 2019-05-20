@@ -152,9 +152,18 @@
 }
 
 @media only screen and (max-width: 767px) {
+  body {
+    text-align: center !important;
+  }
+
   .section {
     padding: 60px 0 45px;
   }
+
+  .hero-area-2 .intro-img {
+    padding: none;
+  }
+
   .hero-area .contents {
     padding: 100px 0 20px;
   }
@@ -171,7 +180,7 @@
     padding-bottom: 0px;
   }
   .hero-area-2 .intro-img {
-    padding: 20px 0px 0px;
+    padding-right: 40px;
   }
   .hero-area .intro-img {
     padding: 60px 0 0;
@@ -180,7 +189,7 @@
     padding: 0;
   }
   .bg-inverse {
-    background: #191c1e;
+    background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
   }
   .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {
@@ -300,7 +309,7 @@
     padding: 0;
   }
   .bg-inverse {
-    background: #191c1e;
+    background-image: -webkit-linear-gradient(0deg, #3c96ff 0%, #2dfbff 100%);
   }
   .navbar-expand-md .navbar-brand,
   .navbar-expand-md .navbar-toggler {

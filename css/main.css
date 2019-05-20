@@ -708,6 +708,13 @@ button:focus {
   height: auto;
 }
 
+@media only screen and (max-width: 767px) {
+  .hero-area-2 .intro-img {
+    padding-right: 40px !important;
+    padding-top: 0px !important;
+  }
+}
+
 .hero-area-2 .intro-img img {
   display: block;
   height: auto;
