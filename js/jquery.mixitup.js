@@ -1,17 +1,3 @@
-/**!
- * MixItUp v2.1.11
- *
- * @copyright Copyright 2015 KunkaLabs Limited.
- * @author    KunkaLabs Limited.
- * @link      https://mixitup.kunkalabs.com
- *
- * @license   Commercial use requires a commercial license.
- *            https://mixitup.kunkalabs.com/licenses/
- *
- *            Non-commercial use permitted under terms of CC-BY-NC license.
- *            http://creativecommons.org/licenses/by-nc/3.0/
- */
-
 (function($, undf){
 	'use strict';
 
@@ -28,8 +14,7 @@
 
 		$.extend(self, {
 
-			/* Public Properties
-			---------------------------------------------------------------------- */
+			/* Public Properties */
 
 			selectors: {
 				target: '.mix',
@@ -371,14 +356,6 @@
 
 			self._execAction('_platformDetect', 1);
 		},
-
-		/**
-		 * Refresh
-		 * @since 2.0.0
-		 * @param {boolean} init
-		 * @param {boolean} force
-		 */
-
 		_refresh: function(init, force){
 			var self = this;
 

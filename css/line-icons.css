@@ -10,7 +10,6 @@
 }
 
 [class^="lni-"], [class*=" lni-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
   font-family: 'LineIcons' !important;
   speak: none;
   font-style: normal;
