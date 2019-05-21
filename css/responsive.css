@@ -156,6 +156,10 @@
     text-align: center !important;
   }
 
+  .header-button {
+    padding-left: 15px !important;
+  }
+
   .section {
     padding: 60px 0 45px;
   }
